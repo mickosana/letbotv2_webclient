@@ -1,0 +1,22 @@
+{
+  "name": "lexnew",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack ./src/index.js --mode development --target web --devtool false "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "@aws-sdk/client-lex-runtime-service": "^3.245.0",
+    "@aws-sdk/client-lex-runtime-v2": "^3.245.0",
+    "aws-sdk": "^2.1291.0"
+  }
+}
